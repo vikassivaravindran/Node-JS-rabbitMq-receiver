@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-promise",
+  "version": "1.0.0",
+  "description": "nodejs-promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+	"grunt": "^0.4.5",                   
+    "grunt-contrib-concat": "^0.5.0",
+	 "grunt-contrib-uglify": "^0.5.1",
+    "amqplib": "^0.5.1",
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "express": "^4.15.3",
+    "fs-readfile-promise": "^3.0.0",
+    "promise": "^8.0.1",
+    "redis": "^2.8.0"
+  }
+}
